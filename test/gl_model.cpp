@@ -2,6 +2,7 @@
 #include "gl_model.h"
 
 #include "fileio.h"
+#include <cstring>
 
 
 
