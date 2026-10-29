@@ -1,7 +1,7 @@
 
 //////////////////////////////////////////////////////////////////////
 //
-//   Copyright (C) 2004 Tanguy Fautré.
+//   Copyright (C) 2004 Tanguy Fautrï¿½.
 //
 //  This software is provided 'as-is', without any express or implied
 //  warranty.  In no event will the authors be held liable for any damages
@@ -19,7 +19,7 @@
 //     misrepresented as being the original software.
 //  3. This notice may not be removed or altered from any source distribution.
 //
-//  Tanguy Fautré
+//  Tanguy Fautrï¿½
 //  softdev@telenet.be
 //
 //////////////////////////////////////////////////////////////////////
@@ -52,6 +52,7 @@
 #include <io.h> // Windows I/O facilities (Directories)
 #elif defined UNIX
 #include <dirent.h>
+#include <climits>
 #endif
 
 
