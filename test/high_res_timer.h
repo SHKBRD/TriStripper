@@ -32,8 +32,8 @@
 
 #ifndef HEADER_GUARD_HIGH_RES_TIMER_H
 #define HEADER_GUARD_HIGH_RES_TIMER_H
-
 #include <stdexcept>
+#include <cstdint>
 
 
 
