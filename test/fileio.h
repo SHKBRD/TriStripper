@@ -189,7 +189,7 @@ inline search_iterator & search_iterator::begin(const char * FileSpec) {
 	if (m_Directory != NULL) closedir(m_Directory);
 
 	int i;
-	for (i = std::strlen(FileSpec); i >= 0; --i)
+	for (i = std::mbrlen(FileSpec); i >= 0; --i)
 		if (FileSpec[i] == '/') break;
 	
 	if (i < 0)
